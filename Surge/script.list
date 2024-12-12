@@ -1,0 +1,12 @@
+# Script存档
+
+[Script]
+; wb_ad = requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/wb_ad,script-update-interval=86400,type=http-response,pattern=^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed)
+; wb_launch = requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/wb_launch,script-update-interval=86400,type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua)
+;
+; RRad = max-size=524288,requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/RRad,script-update-interval=86400,type=http-response,pattern=^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal)
+;
+; # Onewayticket255
+; pixiv_premium = requires-body=1,max-size=0,script-path=https://subweb.s3.fr-par.scw.cloud/Script/pixiv_premium,script-update-interval=86400,type=http-response,pattern=https://oauth.secure.pixiv.net/auth/token
+;
+; surge_abematv_web = requires-body=1,max-size=-1,script-path=https://subweb.s3.fr-par.scw.cloud/Script/surge_abematv_web,script-update-interval=86400,type=http-response,pattern=https://abema.tv/.*
